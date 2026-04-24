@@ -1,7 +1,6 @@
 /**
- * super simple, not really that usefll child class
- * that only allows song of a specific genre.
- * important for the inheritance marks!
+ * simple, child class that only 
+ * allows song of a specific genre.
  */
 
 public class SmartPlaylist extends PlaylistClass {
@@ -32,7 +31,7 @@ public class SmartPlaylist extends PlaylistClass {
     }
 
     /**
-     * just gets the genre of the playlist
+     * gets the genre of the playlist
      */
     public String getGenre(){ return genre; }
 }
