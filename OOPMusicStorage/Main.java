@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class ProjectOneTester{
+public class Main{
     /**
      * Many people enjoy listening to music using popular apps like Spotify, iTunes, or YouTube.
      * But these apps have their own problems that can make it challenging to enjoy; some have
@@ -157,7 +157,7 @@ public class ProjectOneTester{
             } else if (!input.equals("/exit")){
                 System.out.println("Unknown command! Type /help to see available commands.");
             } //left as else if becuase there can be an infinite amount of commands, as long as it connects to a method or purpose.
-              //not every method was put in main, but it can, it would just be to long.
+              //not every method was put in main, but it can.
         }
         System.out.println("User has exited the program.\nGoodbye for now :)");
         scanner.close();
